@@ -1,0 +1,128 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+/*
+   === Base Styles ===
+*/
+  
+
+/*
+   === Layout ===
+*/
+
+/* within header */
+
+.primary-header,
+.media {
+    float: left
+}
+
+.primary-header {
+    width: 15%;
+}
+
+.media {
+    width: 85%;
+}
+
+/* within media section*/
+
+.primary-feature,
+.featured-articles {
+    float: left;
+}
+
+.primary-feature {
+    width: 45%;
+}
+
+.featured-articles {
+    width: 30%;
+}
+
+.articles {
+    clear: both;
+}
+
+/*
+   === Additional Styles ===
+*/
+
+/* applied to multiple sections */
+
+.link {
+    text-decoration: none;
+}
+
+/* header */
+
+.primary-header{
+    padding: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.join-text {
+    color: gold;
+}
+
+.header-text {
+    color: #7c7c7c;
+}
+
+/* featured section */
+
+.primary-feature {
+    padding: 0 16px 16px 0;
+}
+
+.featured-list {
+    list-style: none;
+}
+
+.featured-link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* articles section */
+
+.article-info,
+.article-short,
+.article-image {
+    float: left;
+    width: 33.3333%;
+}
+  
+/* images */
+
+.logo {
+    width: 60px;
+}
+
+.primary-feature-image {
+    width: 100%;
+}
+
+.article-image {
+    width: 300px;
+}
