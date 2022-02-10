@@ -58,6 +58,7 @@
 
 .articles {
     clear: both;
+    width: 75%;
 }
 
 /*
@@ -112,6 +113,15 @@
     float: left;
     width: 33.3333%;
 }
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article > * {
+    color: #000;
+}
   
 /* images */
 
@@ -124,5 +134,5 @@
 }
 
 .article-image {
-    width: 300px;
+    width: 33.3333%;
 }
