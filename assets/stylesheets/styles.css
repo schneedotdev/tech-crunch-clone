@@ -83,6 +83,7 @@ body {
     margin-top: 16px;
 }
 
+
 .author:hover {
     color: #00d084;
 }
@@ -149,7 +150,8 @@ body {
     color: #00d084;
 }
 
-.join-text:hover {
+.join-text:hover,
+.tc:hover {
     color: #cb9604;
 }
 
