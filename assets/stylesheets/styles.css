@@ -134,9 +134,10 @@ body {
 
 .join-text {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.07rem;
     color: #fcb900;
-    margin: 18px 0;
+    margin: 18px 0 12px 0;
+    padding: 3px 0 0 3px;
 }
 
 .header-link {
@@ -235,7 +236,8 @@ body {
 }
 
 .article-image {
-    padding: 18px;
+    padding: 18px 0 18px 18px;
+    max-height: 170px;
 }
 
 .date,
@@ -245,7 +247,9 @@ body {
 }
 
 .date {
-    font-size: .9rem;
+    display: block;
+    font-size: .85rem;
+    padding-top: 8px;
 }
 
   
