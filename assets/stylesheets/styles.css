@@ -124,9 +124,12 @@ body {
     margin-top: 12px;
 }
 
-.header-link {
-    font-weight: 200;
-    font-size: 1.25rem;
+.search-icon {
+    width: 16px;
+}
+
+.search-li {
+    padding-bottom: 6px;
 }
 
 .join-text {
@@ -136,6 +139,10 @@ body {
     margin: 18px 0;
 }
 
+.header-link {
+    font-weight: 200;
+    font-size: 1.225rem;
+}
 .header-link:hover,
 .login:hover {
     color: #00d084;
