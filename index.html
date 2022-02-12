@@ -7,7 +7,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">  
         
         <link rel="stylesheet" href="assets/stylesheets/normalize.css">
         <link rel="stylesheet" href="assets/stylesheets/styles.css">
@@ -15,44 +15,46 @@
     </head>
     <body>
         <header class="primary-header">
-            <img class="logo" src="assets/images/techcrunch.png" alt="Tech Crunch Logo">
+            <a href="index.html">
+                <img class="logo opacity" src="assets/images/techcrunch.png" alt="Tech Crunch Logo">
+            </a>
             
             <div class="login-registration">
                 <a class="join-text" href="sign-up.html">Join TechCrunch+</a>
-                <a class="header-text" href="login.html">Login</a>
+                <a class="login" href="login.html">Login</a>
             </div>
             
             <nav class="primary-navigation">
                 <ul class="nav-list">
                     <li>
                         <form class="search">
-                            <label class="header-text" for="search-bar">Search</label>
+                            <label class="header-link" for="search-bar">Search</label>
                             <!-- <input class="search-bar" type="text"> -->
                         </form>
                     </li>
-                    <li><a class="link header-text" href="#">Startups</a></li>
-                    <li><a class="link header-text" href="#">Audio</a></li>
-                    <li><a class="link header-text" href="#">Newsletters</a></li>
-                    <li><a class="link header-text" href="#">TechCrunch+</a></li>
-                    <li><a class="link header-text" href="#">Videos</a></li>
-                    <li><a class="link header-text" href="#">Advertise</a></li>
-                    <li><a class="link header-text" href="#">Events</a></li>
-                    <li><a class="link header-text" href="#">More</a></li>
+                    <li><a class="header-link" href="#">Startups</a></li>
+                    <li><a class="header-link" href="#">Audio</a></li>
+                    <li><a class="header-link" href="#">Newsletters</a></li>
+                    <li><a class="header-link" href="#">TechCrunch+</a></li>
+                    <li><a class="header-link" href="#">Videos</a></li>
+                    <li><a class="header-link" href="#">Advertise</a></li>
+                    <li><a class="header-link" href="#">Events</a></li>
+                    <li><a class="header-link" href="#">More</a></li>
                 </ul>
             </nav>
         </header>
 
         <main class="media">
             <section class="featured-container">
-                <article class="primary-feature">
+                <article class="primary-feature opacity">
                     <h1 class="primary-heading">Microsoft to buy Activision Blizzard for $68.7 billion</h1>
-                    <span class="author">Amanda Silberling</span>
+                    <span class="author featured-name">Amanda Silberling</span>
                     <img class="primary-feature-image" src="assets/images/article-images/Activision.jpeg" alt="Call of Duty Activision">
                 </article>
             
                 <section class="featured-articles">
                     <ul class="featured-list">
-                        <li>
+                        <li class="border-stylization opacity">
                             <article>
                                 <a class="featured-link" href="#">
                                     <h2 class="article-heading">Register today for DeFi and the Future of Programmable Money Summit</h2>
@@ -63,7 +65,7 @@
                             </article>
                         </li>
             
-                        <li>
+                        <li class="border-stylization opacity">
                             <article>
                                 <a class="featured-link" href="#">
                                     <h2 class="article-heading">For investors, future of work isn't only about HR</h2>
@@ -74,7 +76,7 @@
                             </article>
                         </li>
             
-                        <li>
+                        <li class="border-stylization opacity">
                             <article>
                                 <a class="featured-link" href="#">
                                     <h2 class="article-heading">Upward plans to open a 250,000-square-foot vertical farm in PA early next year</h2>
@@ -85,7 +87,7 @@
                             </article>
                         </li>
             
-                        <li>
+                        <li class="opacity">
                             <article>
                                 <a class="featured-link" href="#">
                                     <h2 class="article-heading">Wayve raises $200M Series B led by Eclipse for its AI for autonomous delivery vehicles</h2>
@@ -102,13 +104,13 @@
             <section class="articles">
                 <h2 class="articles-header">The Latest</h2>
                 <ul class="article-list">
-                    <li class="list-item">
+                    <li class="list-item opacity">
                         <article class="article">
                             <a href="#">
                                 <section class="article-info">
                                     <h2 class="article-heading">Snapchat says it's getting better at finding illicit drug dealers before users do</h2>
                                     <span class="author">Taylor Hatmaker</span>
-                                    <time datetime="2022-01-18T11:15:00Z">11:15 AM PST - January 18, 2022</time>
+                                    <time class="date" datetime="2022-01-18T11:15:00Z">11:15 AM PST - January 18, 2022</time>
                                 </section>
 
                                 <p class="article-short">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis corrupti recusandae minus quos. Laboriosam, officia quis? Deleniti sunt aliquid neque pariatur, optio at, similique, quisquam nam et eaque dolorem.</p>
@@ -118,13 +120,13 @@
                         </article>
                     </li>
 
-                    <li class="list-item">
+                    <li class="list-item opacity">
                         <article class="article">
                             <a href="#">
                                 <section class="article-info">
                                     <h2 class="article-heading">Will quantum computing remain the domain of the specialist VC?</h2>
                                     <span class="author">Maria Lepskaya</span>
-                                    <time datetime="2022-01-18T11:06:00Z">11:06 AM PST - January 18, 2022</time>
+                                    <time class="date" datetime="2022-01-18T11:06:00Z">11:06 AM PST - January 18, 2022</time>
                                 </section>
                     
                                 <p class="article-short">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, iure. In, ad quod repellat magni quibusdam ipsum amet modi laborum corporis dolor quos, quia, unde molestias accusantium animi praesentium ducimus?</p>
@@ -134,13 +136,13 @@
                         </article>
                     </li>
 
-                    <li class="list-item">
+                    <li class="list-item opacity">
                         <article class="article">
                             <a href="#">
                                 <section class="article-info">
                                     <h2 class="article-heading">Will your nose know lamb? Black Sheep Foods is betting it will</h2>
                                     <span class="author">Christine Hall</span>
-                                    <time datetime="2022-01-18T16:50:00Z">4:50 PM EST - January 18, 2022</time>
+                                    <time class="date" datetime="2022-01-18T16:50:00Z">4:50 PM EST - January 18, 2022</time>
                                 </section>
                     
                                 <p class="article-short">While plant-based versions of chicken and beef have become popular in recent years, Black Sheep Foods believes that meats, like lamb and other game, were left behind by the trend.</p>

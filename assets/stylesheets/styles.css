@@ -21,6 +21,9 @@
    === Base Styles ===
 */
   
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /*
    === Layout ===
@@ -53,12 +56,7 @@
 }
 
 .featured-articles {
-    width: 30%;
-}
-
-.articles {
-    clear: both;
-    width: 75%;
+    width: 25%;
 }
 
 /*
@@ -67,8 +65,30 @@
 
 /* applied to multiple sections */
 
-.link {
-    text-decoration: none;
+.join-text,
+.primary-heading,
+.article-heading {
+    font-weight: 700;
+}
+
+.author {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    font-size: .8rem;
+}
+
+.primary-heading,
+.featured-list {
+    margin-top: 16px;
+}
+
+.author:hover {
+    color: #00d084;
+}
+
+.opacity:hover {
+    opacity: .6;
 }
 
 /* header */
@@ -77,20 +97,73 @@
     padding: 30px;
 }
 
+.login-registration {
+    margin-bottom: 2.25rem;
+}
+
 .nav-list {
     list-style: none;
     padding: 0;
 }
 
-.join-text {
-    color: gold;
+.nav-list li {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
 }
 
-.header-text {
+.join-text,
+.header-link,
+.login {
     color: #7c7c7c;
+    text-decoration: none;
 }
+
+.login {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.header-link {
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.join-text {
+    display: block;
+    font-size: 1.05rem;
+    color: #fcb900;
+    margin: 18px 0;
+}
+
+.header-link:hover,
+.login:hover {
+    color: #00d084;
+}
+
+.join-text:hover {
+    color: #cb9604;
+}
+
 
 /* featured section */
+
+.primary-heading,
+.article-heading {
+    margin-bottom: 10px;
+}
+
+.primary-heading {
+    font-size: 2.25rem;
+}
+
+.featured-name {
+    padding-bottom: 8px;
+}
+
+.article-heading {
+    font-size: 1.125rem;
+}
 
 .primary-feature {
     padding: 0 16px 16px 0;
@@ -98,6 +171,12 @@
 
 .featured-list {
     list-style: none;
+    padding-left: 20px;
+}
+
+.border-stylization {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
 }
 
 .featured-link {
@@ -107,6 +186,15 @@
 
 /* articles section */
 
+.articles {
+    clear: both;
+    width: 70%;
+}
+
+.articles-header {
+    font-size: 1.125rem;
+}
+
 .article-info,
 .article-short,
 .article-image {
@@ -114,17 +202,43 @@
     width: 33.3333%;
 }
 
+.article-info,
+.article-short {
+    padding-right: 18px;
+}
+
 .article-list {
     list-style: none;
     padding: 0;
 }
 
-.article {
-    /* border-bottom: 2px solid black; */
+.article-list li {
+    overflow: hidden;
+    border-top: 2px solid  	rgba(241, 241, 241, .9);
+    padding: 12px 0;
 }
 
-.article > * {
+.article-heading,
+.author {
     color: #000;
+}
+
+.article-heading {
+    font-size: 1.25rem;
+}
+
+.article-image {
+    padding: 18px;
+}
+
+.date,
+.article-short {
+    font-weight: 300;
+    color: #7b7b7b;
+}
+
+.date {
+    font-size: .9rem;
 }
 
   
