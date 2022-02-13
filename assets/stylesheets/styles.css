@@ -38,10 +38,12 @@ body {
 
 .primary-header {
     width: 15%;
+    position: fixed;
 }
 
 .media {
     width: 85%;
+    margin-left: 15%;
 }
 
 /* within media section*/
